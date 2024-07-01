@@ -1,0 +1,86 @@
+[
+{
+  "model": "django_celery_beat.intervalschedule",
+  "pk": 1,
+  "fields": {
+    "every": 60,
+    "period": "seconds"
+  }
+},
+
+{
+  "model": "django_celery_beat.crontabschedule",
+  "pk": 1,
+  "fields": {
+    "minute": "0",
+    "hour": "4",
+    "day_of_month": "*",
+    "month_of_year": "*",
+    "day_of_week": "*",
+    "timezone": "UTC"
+  }
+},
+{
+  "model": "django_celery_beat.periodictasks",
+  "pk": 1,
+  "fields": {
+    "last_update": "2024-04-27T12:00:00.495Z"
+  }
+},
+  {
+  "model": "django_celery_beat.periodictask",
+  "pk": 1,
+  "fields": {
+    "name": "celery.backend_cleanup",
+    "task": "celery.backend_cleanup",
+    "interval": null,
+    "crontab": 1,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": 43200,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": null,
+    "total_run_count": 0,
+    "date_changed": "2024-04-27T12:00:00.442Z",
+    "description": ""
+  }
+},
+{
+  "model": "django_celery_beat.periodictask",
+  "pk": 2,
+  "fields": {
+    "name": "user_activity_check",
+    "task": "habits_tracker.tasks.task_send_message",
+    "interval": 1,
+    "crontab": null,
+    "solar": null,
+    "clocked": null,
+    "args": "[]",
+    "kwargs": "{}",
+    "queue": null,
+    "exchange": null,
+    "routing_key": null,
+    "headers": "{}",
+    "priority": null,
+    "expires": null,
+    "expire_seconds": null,
+    "one_off": false,
+    "start_time": null,
+    "enabled": true,
+    "last_run_at": "2024-04-27T12:57:02.563Z",
+    "total_run_count": 188,
+    "date_changed": "2024-04-27T12:57:17.733Z",
+    "description": ""
+  }
+}
+]

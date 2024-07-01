@@ -1,0 +1,104 @@
+[
+{
+  "model": "habits_tracker.habit",
+  "pk": 38,
+  "fields": {
+    "user": 6,
+    "place": "скайпро",
+    "time": "10:00:00",
+    "action": "посмотреть урок",
+    "is_good_habit": false,
+    "periodic": "1",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": "пирожок",
+    "associated_habit": null,
+    "date_last_send": "2024-04-27"
+  }
+},
+{
+  "model": "habits_tracker.habit",
+  "pk": 39,
+  "fields": {
+    "user": 6,
+    "place": "парке",
+    "time": "08:00:00",
+    "action": "бегать",
+    "is_good_habit": false,
+    "periodic": "2",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": "новую фоточку",
+    "associated_habit": null,
+    "date_last_send": "2024-04-27"
+  }
+},
+{
+  "model": "habits_tracker.habit",
+  "pk": 40,
+  "fields": {
+    "user": 6,
+    "place": "комнате",
+    "time": "12:00:00",
+    "action": "поиграть в ПС4",
+    "is_good_habit": true,
+    "periodic": "4",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": null,
+    "associated_habit": null,
+    "date_last_send": "2024-04-23"
+  }
+},
+{
+  "model": "habits_tracker.habit",
+  "pk": 41,
+  "fields": {
+    "user": 6,
+    "place": "кофейне",
+    "time": "12:00:00",
+    "action": "купить булочку",
+    "is_good_habit": true,
+    "periodic": "3",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": null,
+    "associated_habit": null,
+    "date_last_send": "2024-04-24"
+  }
+},
+{
+  "model": "habits_tracker.habit",
+  "pk": 42,
+  "fields": {
+    "user": 6,
+    "place": "спортзале",
+    "time": "12:00:00",
+    "action": "заниматься йогой",
+    "is_good_habit": false,
+    "periodic": "3",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": "порадовать себя",
+    "associated_habit": 41,
+    "date_last_send": "2024-04-27"
+  }
+},
+{
+  "model": "habits_tracker.habit",
+  "pk": 43,
+  "fields": {
+    "user": 6,
+    "place": "скайпро",
+    "time": "12:00:00",
+    "action": "отправить дз",
+    "is_good_habit": false,
+    "periodic": "3",
+    "lead_time": 10,
+    "is_public": true,
+    "reward": null,
+    "associated_habit": null,
+    "date_last_send": "2024-04-27"
+  }
+}
+]
