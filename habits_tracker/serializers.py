@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from habits_tracker.models import Habit
-from habits_tracker.validators import TimeHabitValidator, IsGoodHabitValidator, PeriodicHabitValidator, GoodHabitValidator
+from habits_tracker.validators import (TimeHabitValidator, IsGoodHabitValidator, PeriodicHabitValidator,
+                                       GoodHabitValidator)
 
 
 # class PleasureHabitSerializer(serializers.ModelSerializer):

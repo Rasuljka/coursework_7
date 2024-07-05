@@ -7,6 +7,7 @@ URL = 'https://api.telegram.org/bot'
 TOKEN = '7018773631:AAFJHHsBJ09blFTIrsKfYxdXmwksTELnvpc'
 # TELEGRAM_CHAT_ID = settings.TELEGRAM_CHAT_ID
 
+
 def send_habit():
     requests.post(
         url=f'{URL}{TOKEN}/sendMessage',
@@ -17,6 +18,7 @@ def send_habit():
     )
 
 # send_habit()
+
 
 print(datetime.utcnow().time().strftime('%H:%M'))
 print(str(datetime.today().weekday()))

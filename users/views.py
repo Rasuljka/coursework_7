@@ -1,16 +1,18 @@
 from rest_framework import generics
 from users.models import User
 from users.serializers import UserSerializer, UserCreateSerializer, MyTokenObtainPairSerializer
-from rest_framework.permissions import IsAuthenticated
-from users.permissions import IsOwner
+
 
 from rest_framework_simplejwt.views import TokenObtainPairView
+
 
 class MyTokenObtainPairView(TokenObtainPairView):
     serializer_class = MyTokenObtainPairSerializer
 
+
 """USER generics"""
 # ----------------------------------------------------------------
+
 
 class UserListAPIView(generics.ListAPIView):
     serializer_class = UserSerializer
